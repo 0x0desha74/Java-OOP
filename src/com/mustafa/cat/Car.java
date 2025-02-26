@@ -3,33 +3,65 @@ package com.mustafa.cat;
 public class Car {
 
     //default constructor => hidden empty parameterless constructor
-    public Car(){
-//        System.out.println("Car Constructor");
+    public Car(String model) {
+        Model = model;
     }
 
+    double Speed;
+
+    public double getSpeed() {
+        return Speed;
+    }
+
+    public void setSpeed(double speed) {
+        Speed = speed;
+    }
+
+    public String getColor() {
+        return Color;
+    }
+
+    public void setColor(String color) {
+        Color = color;
+    }
+
+    public String getModel() {
+        return Model;
+    }
+
+    public void setModel(String model) {
+        Model = model;
+    }
+
+    public boolean isHatchBack() {
+        return IsHatchBack;
+    }
+
+    public void setHatchBack(boolean hatchBack) {
+        IsHatchBack = hatchBack;
+    }
+
+    String Color;
+    String Model;
+    boolean IsHatchBack;
 
     //Attributes - Properties
 
-    double Speed;
-    String Color;
-    String Model;
+
 
     // Methods
 
-    void turnOn(){
+    void turnOn() {
         System.out.println("Car is being Turning on");
     }
 
-    void turnOff(){
+    void turnOff() {
         System.out.println("Car is being Turning off");
     }
 
-    void brake(){
+    void brake() {
         System.out.println("Car is being Braking");
     }
 
-    @Override
-    public String toString() {
-        return "Car Color = " + Color + " Model = " + Model + " Speed = " + Speed;
-    }
+
 }

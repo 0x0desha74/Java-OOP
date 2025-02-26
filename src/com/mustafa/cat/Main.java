@@ -5,14 +5,9 @@ package com.mustafa.cat;
 public class Main {
     public static void main(String[] args) {
 
+        var boy01 = new Boy();
+        boy01.setName("Mohammed");
 
-    var car01 = new Car();
-    Car C2 ;
-        car01.Color = "Red";
-        car01.Model = "2025";
-        car01.Speed = 220;
-        car01.turnOn();
-        System.out.println(car01);
 
     }
 }
