@@ -7,11 +7,12 @@ public class Main {
 
 
     var car01 = new Car();
-//    Car C2 ;
-//        car01.Color = "Red";
-//        car01.Model = "Ford";
-//        car01.Speed = 120;
-//
-//        System.out.println(car01);
+    Car C2 ;
+        car01.Color = "Red";
+        car01.Model = "2025";
+        car01.Speed = 220;
+        car01.turnOn();
+        System.out.println(car01);
+
     }
 }

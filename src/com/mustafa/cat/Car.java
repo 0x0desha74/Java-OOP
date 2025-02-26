@@ -4,7 +4,7 @@ public class Car {
 
     //default constructor => hidden empty parameterless constructor
     public Car(){
-        System.out.println("Car Constructor");
+//        System.out.println("Car Constructor");
     }
 
 
