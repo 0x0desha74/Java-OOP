@@ -2,7 +2,14 @@ package com.mustafa.cat;
 
 public class Person {
 
+
+
     private String name;
+
+    public Person() {
+        System.out.println("Hey from Parent");
+    }
+
     private int Age;
    private String Email;
    private String Phone;
@@ -10,44 +17,13 @@ public class Person {
    private int Grade;
    private int Height;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
+    public Person(String email, String name) {
+        Email = email;
         this.name = name;
     }
 
-    public int getAge() {
-        return Age;
-    }
-
-    public void setAge(int age) {
-        Age = age;
-    }
-
-    public String getEmail() {
-        return Email;
-    }
-
-    public void setEmail(String email) {
-        Email = email;
-    }
-
-    public String getPhone() {
-        return Phone;
-    }
-
-    public void setPhone(String phone) {
-        Phone = phone;
-    }
-
-    public String getAddress() {
-        return Address;
-    }
-
-    public void setAddress(String address) {
-        Address = address;
+    public void eat(){
+        System.out.println("I'm Eating.");
     }
 }
 

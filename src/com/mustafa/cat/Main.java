@@ -5,9 +5,8 @@ package com.mustafa.cat;
 public class Main {
     public static void main(String[] args) {
 
-        var boy01 = new Boy();
-        boy01.setName("Mohammed");
-
+            var boy01 = new Boy("Mustafa", "mail@gmail.com", true);
+        boy01.eat();
 
     }
 }
